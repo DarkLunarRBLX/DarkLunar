@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E
+<html xmlns="http://www.w3.org/1999/xhtml%22%3E
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js%22%3E</script>
+        <script type="text/javascript" src="jquery.js"></script>
+        <link rel="stylesheet" href="style.css" /> 
+    </head>
+    <body>
 
-You can use the [editor on GitHub](https://github.com/DarkLunarRBLX/DarkLunar/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <div id="holder">
+            <h2>Regiser With Key</h2>
+            <form action="" method="post" name="register" >
+            <p>UserName : <br />
+            <span class="sub_username"></span>
+            <input type="text" class="username" /></p>
 
-### Markdown
+            <p>Password :<br />
+            <span class="sub_password"></span>
+            <input type="password" name="password" /></p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            <p>Re-password :<br />
+            <span class="sub_re_password"></span>
+            <input type="password" name="re_password" /></p>
 
-```markdown
-Syntax highlighted code block
+            <p>Email : <br />
+            <span class="sub_email"></span>
+            <input type="text" name="email" /></p>
 
-# Header 1
-## Header 2
-### Header 3
+            <p>Re-Email : <br />
+            <span class="sub_re_email"></span>
+            <input type="text" name="re_email" /></p>
 
-- Bulleted
-- List
+            <input type="submit" name="submit"   value="register" />
 
-1. Numbered
-2. List
+            </form>
 
-**Bold** and _Italic_ and `Code` text
+        </div>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DarkLunarRBLX/DarkLunar/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </body>
+</html>
